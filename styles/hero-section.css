@@ -1,0 +1,126 @@
+.hero-section {
+    margin-top: 240px;
+    margin-left: 240px;
+    width: 1248px;
+    height: 754px;
+    background-image: url("../Assets/hero\ image.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 30%;
+}
+
+.hero-section-title {
+    width: 645px;
+    height: 184px;
+    font-family: Helvetica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hero-section-text {
+    font-family: "Avenir";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B5D68;
+    height: 120px;
+    width: 380px;
+}
+.article-and-button{
+}
+
+.learn-more-button-top {
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.learn-more-button-top:hover {
+    background: #855eba;
+}
+
+.learn-more-button-top:active {
+    background: #7350a3;
+}
+
+.learn-more-button-text-top {
+    width: 96px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+@media (max-width:719px){
+    .hero-section{
+        margin-left:0px;
+        width:100%;
+        height:40%;
+        background-image: none;
+        margin:0;
+    }
+    .article-and-button{
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .hero-section-title{
+        width:100%;
+        font-size:200%;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom:5%;
+        height:40%;
+    }
+    .hero-section-text{
+        width:100%;
+        text-align: center;
+        margin-right:1%;
+        font-size:100%;
+    }
+}
+@media (min-width:720px) and (max-width:1080px){
+    .hero-section{
+        margin-left:0px;
+        width:100%;
+        height:40%;
+        background-image: none;
+        margin-bottom:5%;
+    }
+    .hero-section-title{
+        width:100%;
+        font-size:250%;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom:5%;
+        height:40%;
+    }
+    .hero-section-text{
+        width:100%;
+        text-align: center;
+        font-size:150%;
+    }
+    .learn-more-button-top{
+        margin-left: 40%;
+    }
+}
+@media(min-width:1081px) and (max-width:1920px){
+    .hero-section{
+        margin-left:6%;
+    }
+}

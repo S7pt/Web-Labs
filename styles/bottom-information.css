@@ -1,0 +1,209 @@
+.line-divide {
+    width: 1600px;
+    margin-top: 133px;
+    background: #9C69E2;
+    opacity: 0.2;
+}
+
+.bottom-information {
+    margin-top: 100px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-information-textbox{
+    width: auto;
+}
+
+.bottom-information-title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.bottom-information-text {
+    font-family: "Avenir";
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+}
+
+.bottom-information-buttons {
+    margin-left: 410px;
+    width: 410px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.learn-more-bottom-button {
+    width: 170px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more-bottom-button-text {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.request-button-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+}
+.request-demo-bottom{
+    font-family: "Avenir";
+    font-style: normal;
+    margin-left:15px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.request-button-bottom:hover {
+    background: #eae3e3;
+}
+
+.request-button-bottom:active {
+    background: #9c9c9c;
+}
+
+.learn-more-bottom-button:hover {
+    background: #c74d97;
+}
+
+.learn-more-bottom-button:active {
+    background: #9f3d78
+}
+@media (max-width:719px){
+    .line-divide{
+        width:100%;
+        margin-top: 5%;
+    }
+    .bottom-information{
+        margin-left: 0%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-information-textbox{
+        width:100%;
+    }
+    .bottom-information-title{
+        width:100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .bottom-information-text{
+        width: 100%;
+        text-align: center;
+    }
+    .bottom-information-buttons{
+        margin-top:5%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .learn-more-bottom-button{
+        width:130px;
+    }
+    .request-button-bottom{
+        width: 140px;
+    }
+    .request-demo-bottom{
+        font-size:80%;
+        text-align: center;
+        margin-left: 1%;
+    }
+}
+@media (min-width:720px) and (max-width:1080px){
+    .line-divide{
+        width:100%;
+        margin-top: 5%;
+    }
+    .bottom-information{
+        margin-left: 0%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-information-textbox{
+        width:100%;
+    }
+    .bottom-information-title{
+        width:100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .bottom-information-text{
+        width: 100%;
+        text-align: center;
+    }
+    .bottom-information-buttons{
+        margin-top:5%;
+        margin-left: 0%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .learn-more-bottom-button{
+        width:20%;
+    }
+    .request-button-bottom{
+        width: 20%;
+    }
+    .request-demo-bottom{
+        font-size:80%;
+    }
+}
+@media(min-width:1081px) and (max-width:1920px){
+    .line-divide{
+        width:100%;
+        margin-top:10%;
+    }
+    .bottom-information{
+        margin-left:0%;
+    }
+    .bottom-information-textbox{
+        margin-left: 2%;
+    }
+    .bottom-information-buttons{
+        margin-left: 35%;
+    }
+
+}

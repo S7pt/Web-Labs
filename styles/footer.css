@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-text {
+    margin-left:15%;
+    width: 360px;
+    height: 50px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+
+.footer-image {
+    width: 60px;
+    height: 60px;
+    margin-right:14%;
+}
+.footer-image:hover{
+    width:70px;
+    height: 70px;
+    transition: 0.5s;
+}
+@media (max-width:1920px){
+    .footer-text{
+        margin-left:2%;
+        font-size: 50%;
+        width:50%;
+    }
+    .footer-image{
+        margin-right:1%;
+        margin-bottom:2%;
+    }
+}

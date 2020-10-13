@@ -1,0 +1,119 @@
+.second-section {
+    margin-left: 240px;
+    margin-top: 99.18px;
+    width: 1117px;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-image {
+    margin-top: 31.82px;
+    margin-left: 11px;
+    width: 477px;
+    height: 504px;
+    background: url("../Assets/second-section-pic.png");
+}
+
+.second-section-textbox {
+    width: 475px;
+    margin-top: 125px;
+    margin-left: 62px;
+}
+
+.second-section-title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+
+.second-section-text {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+}
+@media (max-width:719px){
+    .second-section{
+        width: 100%;
+        margin-left:0%;
+        height: 50%;
+    }
+    .second-image{
+        display: none;
+    }
+    .second-section-textbox{
+        margin:0 auto;
+    }
+    .second-section-title{
+        text-align: center;
+        font-size:200%;
+        margin-bottom: 4%;
+    }
+    .second-section-text{
+        margin-top:0%;
+        text-align: center;
+        font-size: 100%;
+    }
+}
+@media (min-width:720px) and (max-width:1080px){
+    .second-section{
+        width: 70%;
+        margin:0 auto;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-image{
+        display: none;
+    }
+    .second-section-textbox{
+        margin-left:0%;
+        margin-top: 10%;
+    }
+    .second-section-title{
+        text-align: center;
+        font-size:200%;
+        margin-bottom: 4%;
+    }
+    .second-section-text{
+        margin-top:0%;
+        text-align: center;
+        font-size: 100%;
+    }
+}
+@media(min-width:1081px) and (max-width:1500px){
+    .second-section{
+        margin:0 auto;
+        width:65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-section-textbox{
+        margin-left:0%;
+        margin-top: 10%;
+    }
+    .second-image{
+        display: none;
+    }
+    .second-section-title{
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .second-section-text{
+        margin-top:0%;
+        text-align: center;
+    }
+
+}
